@@ -3,6 +3,8 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.Adresse;
+import model.Boutique;
 import model.Client;
 import model.Console;
 import model.Jeu;
@@ -13,14 +15,20 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Boutique b1 = new Boutique("Micromania","Toulouse");
+		Adresse A1 = new Adresse ("4", "rue belgrand", "Paris");
+		Adresse A2 = new Adresse ("23", "rue charlourd", "Toulouse");
+		//Adresse A3 = new Adresse ("10", "rue Hepertie", "Lille");
+		
+		
+		
+	Boutique b1 = new Boutique("Micromania", A1);
 	Console ps5 = new Salon ("PS5");
 	Jeu j1 = new Jeu ("FIFA23",ps5,b1);
 	Jeu j2 = new Jeu ("God of War",ps5,b1);
 	Jeu j3 = new Jeu ("Rocket League",ps5,b1);
 	Jeu j4 = new Jeu ("GTA VI",ps5,b1);
 	Jeu j5 = new Jeu ("Fall Guys",ps5,b1);
-	Boutique b2 = new Boutique("Claire's","1 place Capitole"); 
+	Boutique b2 = new Boutique("Claire's",A2); 
 		
 		List<Jeu> L1= new ArrayList<Jeu>();
 		L1.add(j1);
