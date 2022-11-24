@@ -3,9 +3,9 @@ package model;
 public class Boutique {
 	
 	private String nom;
-	private String addresse;
+	private Adresse addresse;
 	
-	public Boutique(String nom, String addresse) {
+	public Boutique(String nom, Adresse addresse) {
 		super();
 		this.nom = nom;
 		this.addresse = addresse;
@@ -19,11 +19,11 @@ public class Boutique {
 		this.nom = nom;
 	}
 
-	public String getAddresse() {
+	public Adresse getAddresse() {
 		return addresse;
 	}
 
-	public void setAddresse(String addresse) {
+	public void setAddresse(Adresse addresse) {
 		this.addresse = addresse;
 	}
 	
