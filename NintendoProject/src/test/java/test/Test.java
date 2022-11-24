@@ -22,7 +22,7 @@ public class Test {
 		
 		
 	Boutique b1 = new Boutique("Micromania", A1);
-	Console ps5 = new Salon ("PS5");
+	Console ps5 = new Salon ("PS5", 0, "2020-01-15");
 	Jeu j1 = new Jeu ("FIFA23",ps5,b1);
 	Jeu j2 = new Jeu ("God of War",ps5,b1);
 	Jeu j3 = new Jeu ("Rocket League",ps5,b1);
