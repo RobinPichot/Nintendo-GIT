@@ -1,6 +1,6 @@
 package model;
 
-public class Console {
+public abstract class Console {
 
 	private String nom;
 
@@ -20,8 +20,5 @@ public class Console {
 	public String toString() {
 		return "Console [nom=" + nom + "]";
 	}
-	
-	
-	
-	
+		
 }
