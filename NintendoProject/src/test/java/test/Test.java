@@ -1,5 +1,6 @@
 package test;
 
+import model.Boutique;
 import model.Console;
 import model.Jeu;
 
@@ -15,4 +16,6 @@ public class Test {
 	Jeu j3 = new Jeu ("Rocket League",ps5);
 	Jeu j4 = new Jeu ("GTA VI",ps5);
 	Jeu j5 = new Jeu ("Fall Guys",ps5);
+	
+	Boutique b1 = new Boutique("Claire's","1 place Capitole"); 
 }
